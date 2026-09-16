@@ -7,7 +7,7 @@ import (
 
 // task1 выводит текущее вреия и дату.
 func task1() string {
-	c_time := time.Now().Format("01.01.1000 10:10:10")
+	c_time := time.Now().Format(time.DateTime)
 	fmt.Println("Задача 1")
 	fmt.Printf("Текущая дата и время: %s\n", c_time)
 
